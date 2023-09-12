@@ -9,6 +9,7 @@ import Error from './routes/Error/index.jsx';
 import Integrantes from './routes/Integrantes/index.jsx';
 import Chatbot from './routes/Chatbot/index.jsx';
 import Materias from './routes/Materias/index.jsx';
+import SaibaMais from './routes/SaibaMais/index.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: '/integrantes', element: <Integrantes /> },
       { path: '/chatbot', element: <Chatbot /> },
       { path: '/materias', element: <Materias /> },
+      { path: '/saiba-mais', element: <SaibaMais /> },
     ]
   },
 ])

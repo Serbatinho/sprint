@@ -6,7 +6,7 @@ export default function Home() {
             <main>
                 <div>
                     <h1>Um aplicativo de acionamento de seguro para veículos pesados de forma rápida e efetiva</h1>
-                    <Link>Saiba mais</Link>
+                    <Link to='/saiba-mais'>SAIBA MAIS</Link>
                 </div>
             </main>
         </>
