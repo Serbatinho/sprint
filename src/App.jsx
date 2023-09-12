@@ -1,8 +1,9 @@
+import { Outlet } from 'react-router-dom'
+import './styles/app.css'
+
 function App() {
   return (
-    <>
-      <h1>Sprint 1</h1>
-    </>
+    <Outlet />
   )
 }
 
