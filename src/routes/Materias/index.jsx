@@ -1,7 +1,7 @@
 export default function Materias() {
     return (
         <>
-            <main>
+            <main className="full-container">
                 <div className="mid-container">
                     <div className="content">
                         <h2>1. BUILDING RELATIONAL DATABASE</h2>
