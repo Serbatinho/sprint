@@ -16,6 +16,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
+    margin-bottom: auto;
 }
 
 .materias-content > div{
@@ -52,4 +53,5 @@
     min-width: 300px;
     align-self: center;
     justify-self: flex-end;
+    margin-bottom: 80px;
 }

@@ -1,3 +1,7 @@
 .mid-container-home{
     overflow: hidden;
 }
+
+@media (min-width: 401px) {
+
+  }
