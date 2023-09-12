@@ -1,6 +1,11 @@
 import '../../styles/Materias.css'
 
-import bdImage from '../../images/bdmateria.png';
+import bdImage from '../../images/materiabd.png';
+import pyImage from '../../images/materiapy.png';
+import domImage from '../../images/materiadom.png';
+import webImage from '../../images/materiaweb.png';
+import sofImage from '../../images/materiasof.png';
+import aiImage from '../../images/materiaai.png';
 
 export default function Materias() {
     return (
@@ -21,7 +26,7 @@ export default function Materias() {
                             <h2>COMPUTATIONAL THINKING USING PYTHON</h2>
                         </div>
                         <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
-                        <img src="" alt="imagem da materia 2" />
+                        <img src={pyImage} alt="imagem da materia 2" />
                     </div>
                     <div className="materias-content materias-color-1">
                         <div className='materias-title'>
@@ -29,7 +34,7 @@ export default function Materias() {
                             <h2>DOMAIN DRIVEN DESIGN</h2>
                         </div>
                         <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
-                        <img src="" alt="imagem da materia 3" />
+                        <img src={domImage} alt="imagem da materia 3" />
                     </div>
                     <div className="materias-content materias-color-2">
                         <div className='materias-title'>
@@ -37,7 +42,7 @@ export default function Materias() {
                             <h2>RESPONSIVE WEB DEVELOPMENT</h2>
                         </div>
                         <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
-                        <img src="" alt="imagem da materia 4" />
+                        <img src={webImage} alt="imagem da materia 4" />
                     </div>
                     <div className="materias-content materias-color-1">
                         <div className='materias-title'>
@@ -45,7 +50,7 @@ export default function Materias() {
                             <h2>SOFTWARE DESIGN & TOTAL EXPERIENCE</h2>
                         </div>
                         <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
-                        <img src="" alt="imagem da materia 5" />
+                        <img src={sofImage} alt="imagem da materia 5" />
                     </div>
                     <div className="materias-content materias-color-2">
                         <div className='materias-title'>
@@ -53,7 +58,7 @@ export default function Materias() {
                             <h2>AI & CHATBOT</h2>
                         </div>
                         <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
-                        <img src="" alt="imagem da materia 6" />
+                        <img src={aiImage} alt="imagem da materia 6" />
                     </div>
                 </div>
             </main>

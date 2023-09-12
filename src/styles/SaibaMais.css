@@ -1,0 +1,9 @@
+.image-saiba {
+    width: 150px;
+}
+
+.mid-container-saiba {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

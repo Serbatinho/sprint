@@ -1,7 +1,3 @@
-/* .mid-container{
-    height: 85vh;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+.mid-container-home{
+    overflow: hidden;
+}

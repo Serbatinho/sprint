@@ -1,5 +1,9 @@
 .mid-container-integrantes {
     align-items: center;
+    gap: 40px 0px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 figure{
@@ -13,4 +17,13 @@ figcaption {
     font-weight: bold;
     /* white-space: nowrap; */
     text-align: center;
+}
+
+.title-integrantes{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.image-integrante {
+    width: 150px;
 }

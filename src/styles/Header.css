@@ -9,7 +9,8 @@
 
 .navbar-header>*{
     margin: 5px;
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .home-button{
