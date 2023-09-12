@@ -17,7 +17,7 @@ export default function Materias() {
                             <h2 className='materias-title-number' >1. </h2>
                             <h2>BUILDING RELATIONAL DATABASE</h2>
                         </div>
-                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
+                        <p>A qualidade fundamental de um banco de dados é a confiabilidade, garantindo a integridade e disponibilidade dos dados críticos para as operações. </p>
                         <img src={bdImage} alt="imagem da materia 1" />
                     </div>
                     <div className="materias-content materias-color-2">
@@ -25,7 +25,7 @@ export default function Materias() {
                             <h2 className='materias-title-number' >2. </h2>
                             <h2>COMPUTATIONAL THINKING USING PYTHON</h2>
                         </div>
-                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
+                        <p>Python, destacado por sua legibilidade e simplicidade, é uma linguagem versátil que permite desenvolver rapidamente uma ampla gama de aplicativos. </p>
                         <img src={pyImage} alt="imagem da materia 2" />
                     </div>
                     <div className="materias-content materias-color-1">
@@ -41,7 +41,7 @@ export default function Materias() {
                             <h2 className='materias-title-number' >4. </h2>
                             <h2>RESPONSIVE WEB DEVELOPMENT</h2>
                         </div>
-                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
+                        <p>O Java, com sua portabilidade, é uma linguagem confiável e amplamente utilizada, capaz de funcionar em diversas plataformas com facilidade.</p>
                         <img src={webImage} alt="imagem da materia 4" />
                     </div>
                     <div className="materias-content materias-color-1">
@@ -49,7 +49,7 @@ export default function Materias() {
                             <h2 className='materias-title-number' >5. </h2>
                             <h2>SOFTWARE DESIGN & TOTAL EXPERIENCE</h2>
                         </div>
-                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
+                        <p>O Software Design & Total Experience oferece soluções que priorizam a usabilidade, eficiência e inovação, resultando em experiências excepcionais para os usuários.</p>
                         <img src={sofImage} alt="imagem da materia 5" />
                     </div>
                     <div className="materias-content materias-color-2">
@@ -57,7 +57,7 @@ export default function Materias() {
                             <h2 className='materias-title-number' >6. </h2>
                             <h2>AI & CHATBOT</h2>
                         </div>
-                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
+                        <p>Os Chatbots, com sua automação inteligente, melhoram o atendimento ao cliente, agilizam tarefas e proporcionam interações eficazes e personalizadas.</p>
                         <img src={aiImage} alt="imagem da materia 6" />
                     </div>
                 </div>
