@@ -1,0 +1,49 @@
+.materias-mid-container {
+    width: 100%;
+}
+
+.materias-content{
+    height: 100vh;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.materias-content > p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.materias-content > div > h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.materias-title{
+    display:flex;
+    flex-direction: flex-start;
+}
+
+.materias-title-number{
+    width:25%;
+}
+
+.materias-color-1{
+    background-color: #262B5E;
+    color: #fff;
+}
+
+.materias-color-1 > *{
+    color: #fff;
+}
+
+.materias-color-1 > div > h2{
+    color: #A0A5D8;
+}
+
+img {
+    max-width: 100%;
+    align-self: center;
+}

@@ -1,0 +1,16 @@
+.mid-container-integrantes {
+    align-items: center;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    width: 100%;
+    font-weight: bold;
+    /* white-space: nowrap; */
+    text-align: center;
+}

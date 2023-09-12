@@ -1,9 +1,11 @@
+import '../../styles/Integrantes.css'
+
 export default function Integrantes() {
     return (
         <>
             <main className="full-container">
-                <div className="mid-container">
-                    <h1>Integrantes</h1>
+                <div className="mid-container mid-container-integrantes">
+                    <h1>INTEGRANTES</h1>
                     <figure>
                         <img src="" alt="Integrante 1" />
                         <figcaption>RM551821 - Lucas Serbato</figcaption>
