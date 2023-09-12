@@ -1,8 +1,10 @@
 export default function Chatbot() {
     return (
         <>
-            <main>
-                <h1>Chatbot</h1>
+            <main className="full-container">
+                <div className="mid-container">
+                    <h1>Chatbot</h1>
+                </div>
             </main>
         </>
     )

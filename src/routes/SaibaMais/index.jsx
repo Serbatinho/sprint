@@ -1,7 +1,8 @@
 export default function SaibaMais() {
     return (
         <>
-            <main>
+            <main className="full-container">
+                <div className="mid-container"></div>
                 <figure>
                     <img src="" alt="Saiba Mais" />
                     <figcaption>Projeto Proteção Pesada</figcaption>

@@ -1,36 +1,58 @@
+import '../../styles/Materias.css'
+
+import bdImage from '../../images/bdmateria.png';
+
 export default function Materias() {
     return (
         <>
-            <main>
-                <div className="mid-container">
-                    <div className="content">
-                        <h2>1. BUILDING RELATIONAL DATABASE</h2>
-                        <p> lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus</p>
-                        <img src="" alt="imagem da materia 1" />
+            <main className="full-container">
+                <div className="mid-container materias-mid-container">
+                    <div className="materias-content materias-color-1">
+                        <div className='materias-title'>
+                            <h2 className='materias-title-number' >1. </h2>
+                            <h2>BUILDING RELATIONAL DATABASE</h2>
+                        </div>
+                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
+                        <img src={bdImage} alt="imagem da materia 1" />
                     </div>
-                    <div className="content">
-                        <h2>2. COMPUTATIONAL THINKING USING PYTHON</h2>
-                        <p> lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus</p>
+                    <div className="materias-content materias-color-2">
+                        <div className='materias-title'>
+                            <h2 className='materias-title-number' >2. </h2>
+                            <h2>COMPUTATIONAL THINKING USING PYTHON</h2>
+                        </div>
+                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
                         <img src="" alt="imagem da materia 2" />
                     </div>
-                    <div className="content">
-                        <h2>3. DOMAIN DRIVEN DESIGN</h2>
-                        <p> lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus</p>
+                    <div className="materias-content materias-color-1">
+                        <div className='materias-title'>
+                            <h2 className='materias-title-number' >3. </h2>
+                            <h2>DOMAIN DRIVEN DESIGN</h2>
+                        </div>
+                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
                         <img src="" alt="imagem da materia 3" />
                     </div>
-                    <div className="content">
-                        <h2>4. RESPONSIVE WEB DEVELOPMENT</h2>
-                        <p> lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus</p>
+                    <div className="materias-content materias-color-2">
+                        <div className='materias-title'>
+                            <h2 className='materias-title-number' >4. </h2>
+                            <h2>RESPONSIVE WEB DEVELOPMENT</h2>
+                        </div>
+                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
                         <img src="" alt="imagem da materia 4" />
                     </div>
-                    <div className="content">
-                        <h2>5. SOFTWARE DESIGN & TOTAL EXPERIENCE</h2>
-                        <p> lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus</p>
+                    <div className="materias-content materias-color-1">
+                        <div className='materias-title'>
+                            <h2 className='materias-title-number' >5. </h2>
+                            <h2>SOFTWARE DESIGN & TOTAL EXPERIENCE</h2>
+                        </div>
+                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
                         <img src="" alt="imagem da materia 5" />
                     </div>
-                    <div className="content">
-                        <h2>6. AI & CHATBOT</h2>
-                        <p> lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus</p>
+                    <div className="materias-content materias-color-2">
+                        <div className='materias-title'>
+                            <h2 className='materias-title-number' >6. </h2>
+                            <h2>AI & CHATBOT</h2>
+                        </div>
+                        <p>Lorem ipsum nisi mattis cursus etiam vivamus rhoncus interdum nisi accumsan, bibendum aliquet vehicula lectus eu ligula aptent maecenas lobortis. </p>
                         <img src="" alt="imagem da materia 6" />
                     </div>
                 </div>
