@@ -8,7 +8,7 @@ export default function Header() {
                 <Link to='/integrantes'>Integrantes</Link>
                 <Link to='/materias'>Máterias</Link>
                 <span>|</span>
-                <Link to='/chatbot' className="dynamic-border btn">Chatbot</Link>
+                <Link to='/chatbot' className="dynamic-border btn btn-chatbot">Chatbot</Link>
                 <Link to='/' className="home-button">Home</Link>
             </navbar>
         </>

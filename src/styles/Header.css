@@ -26,3 +26,9 @@
 .navbar-header:last-child {
     order: 2;
   }
+
+@media screen and (min-width: 600px) {
+    .btn-chatbot{
+        margin-right: 3vw;
+    }
+}

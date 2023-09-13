@@ -55,3 +55,21 @@
     justify-self: flex-end;
     margin-bottom: 80px;
 }
+
+@media screen and (min-width: 1280px) {
+    .materias-content{
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .materias-content{
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .materias-content{
+        height: 50vh;
+    }
+}
