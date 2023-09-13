@@ -5,7 +5,7 @@ import integrante from '../../images/integrante.png'
 export default function Integrantes() {
     return (
         <>
-            <main className="full-container">
+            <main className="full-container full-container-integrantes">
                 <div className="mid-container-integrantes">
                     <h1 className='title-integrantes'>INTEGRANTES</h1>
                     <figure>
